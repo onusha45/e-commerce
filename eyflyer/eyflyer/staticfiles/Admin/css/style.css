@@ -1,0 +1,35 @@
+.ui-datepicker {
+    background-color: white; /* Change background color */
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 12px; /* Change font size */
+}
+.ui-datepicker-header {
+    background-color: #f0f0f0; /* Change header background color */
+    border-bottom: 1px solid #ccc; /* Add bottom border */
+}
+.ui-datepicker-title {
+    color: #333; /* Change title color */
+    font-weight: bold; /* Add bold font weight */
+}
+.ui-datepicker-calendar {
+    width: 100%; /* Make calendar full width */
+    border-collapse: collapse; /* Collapse borders */
+}
+.ui-datepicker-calendar th,
+.ui-datepicker-calendar td {
+    padding: 5px; /* Add padding to cells */
+    text-align: center; /* Center text */
+    border: 1px solid #ccc; /* Add borders to cells */
+}
+.ui-datepicker-calendar .ui-state-default {
+    background-color: #fff; /* Change default day background color */
+}
+.ui-datepicker-calendar .ui-state-active {
+    background-color: #007bff; /* Change active day background color */
+    color: white; /* Change active day text color */
+}
+.ui-datepicker-calendar .ui-state-hover {
+    background-color: #f0f0f0; /* Change hover day background color */
+}
